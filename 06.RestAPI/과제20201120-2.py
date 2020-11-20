@@ -21,7 +21,7 @@ def markerr():
         location=[df['위도'][i],df['경도'][i]], 
         popup= df['상호명'][i],
         tooltip = f'{df.desc[i]}, {df.temp[i]}',
-        icon=folium.Icon(color = color_dict[df.weather[i]])
+        icon=folium.Icon(color = color_dict[df.weather[i]],icon=df.icon[i])
     ).add_to(mapping)
 
     return mapping._repr_html_()
