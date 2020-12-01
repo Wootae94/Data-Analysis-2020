@@ -9,6 +9,7 @@ kakaomapkey.txt
 openweatherkey.txt
 chromedriver.exe
 .DS_Store
+cafe/
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
